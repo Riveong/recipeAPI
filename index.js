@@ -5,6 +5,8 @@ const app = express();
 dotenv.config();
 app.use(express.json());
 
+const port = parseInt(process.env.PORT);
+
 //router
 // const userRoute = require("./Router/users");
 const authRoute = require("./Router/auth");
