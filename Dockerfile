@@ -1,7 +1,6 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
 FROM node:14.17.1
 
-EXPOSE 
 # Create app directory
 WORKDIR /usr/src/app
 
