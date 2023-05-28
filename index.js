@@ -17,8 +17,8 @@ connect(`${process.env.MONGO_DB}`)
   .then(() => console.log("DB Connected!!"))
   .catch((error) => console.log(error));
 
-app.listen(process.env.PORT || 8080, () => {
-  console.log("tess");
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
 
 //API endpoint
